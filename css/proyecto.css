@@ -1,0 +1,139 @@
+body {
+  background-color: black;
+}
+
+.divSuperPadre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, #2bc0e4, #eaecc6);
+  height: 90vh;
+  border-radius: 2cm;
+  width: 100%;
+}
+
+.divSuperPadre>div {
+  margin-top: 20px;
+}
+
+.input-container1 {
+
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1cm;
+  width: 60%;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.input-container1 div {
+
+  height: 40px;
+  border-radius: 1cm;
+}
+
+.input-container2 div {
+
+  height: 40px;
+  border-radius: 1cm;
+}
+
+.A {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+input {
+  border-radius: 1cm;
+  height: 100%;
+  text-align: center;
+  border: 5px solid black;
+}
+
+.input-container2 {
+
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1cm;
+  width: 60%;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+button {
+  border-radius: 1cm;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: aqua;
+}
+
+.operations {
+  display: flex;
+  width: 60%;
+  height: 60px;
+  justify-content: space-between;
+  
+}
+
+h1 {
+  font-size: 60px;
+  animation: textoAnimado 5s infinite;
+}
+
+@keyframes textoAnimado {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+div#result {
+  background-color: black;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 1cm;
+  color: red;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.input-container3 {
+
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 1cm;
+  width: 60%;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.input-container3 .A {
+  height: 40px;
+  border-radius: 1cm;
+}

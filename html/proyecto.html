@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculadora de Vectores</title>
+  <link rel="stylesheet" type="text/css" href="../css/proyecto.css">
+</head>
+
+<body>
+
+  <div class="divSuperPadre">
+    <h1>Calculadora de Vectores</h1>
+
+    <div class="input-container1">
+      <label for="">VECTOR 1</label>
+      <div class="A">
+        <input type="number" id="x1" placeholder="x1">
+      </div>
+      <div class="A">
+        <input type="number" id="y1" placeholder="y1">
+      </div>
+      <div class="A">
+        <input type="number" id="z1" placeholder="z1">
+      </div>
+    </div>
+
+    <div class="input-container2">
+      <label for="">VECTOR 2</label>
+      <div class="A">
+        <input type="number" id="x2" placeholder="x2">
+      </div>
+      <div class="A">
+        <input type="number" id="y2" placeholder="y2">
+      </div>
+      <div class="A">
+        <input type="number" id="z2" placeholder="z2">
+      </div>
+    </div>
+    <div class="input-container3">
+      <label for="">ESCALAR</label>
+      <div class="A">
+        <input type="number" id="scalar" placeholder="Escalar">
+      </div>
+    </div>
+    <div class="operations">
+      <div><button onclick="sumar()">Sumar</button></div>
+      <div><button onclick="restar()">Restar</button></div>
+      <div><button onclick="productoEscalar()">Producto Escalar</button></div>
+      <div><button onclick="productoCruz()">Producto Cruz</button></div>
+      <div> <button onclick="escalarPorVector()">Escalar por Vector</button></div>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="../js/proyecto.js"></script>
+</body>
+
+</html>
